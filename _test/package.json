@@ -1,0 +1,36 @@
+{
+  "private": true,
+  "license": "MIT",
+  "name": "test_webapp",
+  "version": "0.0.1",
+  "description": "Test web application",
+  "author": {
+    "name": "MAD Code: bizarre",
+    "email": "madcode.tech@gmail.com"
+  },
+  "engines": {
+    "node" : ">=7.1.0"
+  },
+  "devDependencies": {
+    "easymake-preset-default-webapp-react": "file:../."
+  },
+  "dependencies": {
+    "is-plain-object": "^2.0.1"
+  },
+  "config": {
+    "easymake": {
+      "preset": "easymake-preset-default-webapp-react"
+    }
+  },
+  "main": "bundle/bundle.js",
+  "scripts": {
+    "help":                   "easymake --help",
+    "config-empty":           "easymake --config-empty",
+    "config-default":         "easymake --config-default",
+    "create-folders":         "easymake --run create-folders",
+    "production":             "easymake --run bundle --production",
+    "development":            "easymake --run bundle --environment test",
+    "test-units":             "easymake --run test-units",
+    "test-units-production":  "easymake --run test-units --production"
+  }
+}
