@@ -1,6 +1,9 @@
 # easymake-preset-default-webapp-react
 ###### default preset for [easymake](https://github.com/madcode-tech/easymake) which helps to make webapp with react
 
+## documentation
+You can find documentation here https://github.com/madcode-tech/easymake/wiki
+
 ## preset uses:
 + coding
   + babel
