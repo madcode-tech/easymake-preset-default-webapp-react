@@ -2,6 +2,7 @@
   "license": "MIT",
   "name": "easymake-preset-default-webapp-react",
   "version": "1.0.1",
+  "description": "easymake: default preset for make webapp with react",
   "keywords": "easymake preset react webapp default taskrunner presets",
   "author": {
     "name": "MAD Code: bizarre",
