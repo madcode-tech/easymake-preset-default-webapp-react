@@ -1,7 +1,7 @@
 {
   "license": "MIT",
   "name": "easymake-preset-default-webapp-react",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "easymake: default preset for make webapp with react",
   "keywords": "easymake preset react webapp default taskrunner presets",
   "author": {
