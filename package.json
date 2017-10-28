@@ -1,7 +1,7 @@
 {
   "license": "MIT",
   "name": "easymake-preset-default-webapp-react",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "easymake: default preset for make webapp with react",
   "keywords": "easymake preset react webapp default taskrunner presets",
   "author": {
@@ -49,6 +49,8 @@
     "babel-runtime": "^6.18.0",
     "babel-plugin-transform-runtime": "^6.15.0",
     "babel-plugin-transform-promise-to-bluebird": "^1.1.1",
+    "babel-plugin-transform-decorators": "^6.24.1",
+    "babel-plugin-transform-decorators-legacy": "^1.3.4",
     "babel-preset-es2015": "^6.18.0",
     "babel-preset-es2016": "^6.16.0",
     "babel-preset-react": "^6.16.0",

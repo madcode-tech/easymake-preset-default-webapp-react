@@ -42,7 +42,7 @@ module.exports = function(
         loader: 'babel-loader',
         options: {
           plugins: testBabelPlugins.concat(
-            ['transform-promise-to-bluebird', 'transform-runtime']
+            ['transform-promise-to-bluebird', 'transform-runtime', 'transform-decorators-legacy', 'transform-decorators']
           ),
           presets: ['es2015', 'es2016', 'stage-1'].concat(addPresets),
           cacheDirectory: true
